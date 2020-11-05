@@ -1,0 +1,165 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+body{
+    background-color: #F0FFF0;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+header p{
+    color: black;
+    font-size: 25px;
+    padding: 0 100px;
+    text-align: center;
+  }
+  
+h2{
+    font-size: 40;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+nav li{
+    display:inline;
+    padding-right:20px;
+  }
+  
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+  }
+  
+nav a:hover{
+    text-decoration: underline;
+  }
+  
+nav a:focus{
+    text-decoration: underline;
+  }
+  
+  
+nav{
+    background-color:#20B2AA;
+    padding: 25px 0; 
+    text-align: center;
+  }
+  
+footer{
+    background-color: #20B2AA;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+  }
+
+.home{
+    grid-column: 2 / span 1;
+    grid-row: auto / span 1;
+  }
+
+.home-image{
+    grid-column: 1 / -1;
+    max-height: 700px;
+    overflow: hidden;
+    grid-row: 2 / auto;
+  }
+
+.education{
+    grid-column: 2 / span 1;
+    grid-row: auto;
+  }  
+
+.work{
+    grid-column: 2 / span 1;
+    grid-row: auto;
+  }  
+
+.leadership{
+    grid-column: 2 / span 1;
+    grid-row: auto;
+  }  
+
+.other{
+    grid-column: 2 / span 1;
+    grid-row: auto;
+  }  
+
+.text-block{
+    background-color: #F0FFF0;
+    border: 10px solid #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+  }
+
+.hobbies{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.books, .travel, .sorority{
+    margin: 12px;
+    background: #20B2AA;
+    border-radius: 7px;
+    padding: 0 0 50px 0;
+    flex-basis: 400px;
+  }
+
+.books, .travel, .sorority > header{
+    background: #288080;
+    border: 2px solid #45ADAD;
+    padding: 20px 0;
+    border-radius: 7px 7px 0 0;
+  }
+
+.books, .travel, .sorority > ul{
+    list-style: none;
+    padding: 0;
+  }
+
+.books, .travel, .sorority > ul li {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+.books h3, .travel h3, .sorority h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+.gallery{
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+  }
+  
+.gallery > img{
+    border: 10px #50C7C7 solid;
+    margin: 10px;
+    width: 300px;
+  }

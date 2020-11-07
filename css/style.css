@@ -12,7 +12,6 @@ body{
 h1{
     font-size: 50px;
     line-height: 1;
-    padding: 50px 0;
     text-align: center;
   }
 
@@ -24,7 +23,7 @@ header p{
   }
   
 h2{
-    font-size: 40;
+    font-size: 30px;
     line-height: 1.5;
     text-align: center;
   }
@@ -75,10 +74,10 @@ footer{
   }
 
 .home-image{
-    grid-column: 1 / -1;
-    max-height: 700px;
-    overflow: hidden;
-    grid-row: 2 / auto;
+    grid-column: 2 / span 1;
+    grid-row: 5 / span auto;
+    justify-self: center;
+    align-self: center;
   }
 
 .education{
@@ -118,7 +117,7 @@ footer{
     justify-content: center;
   }
 
-.books, .travel, .sorority{
+.books, .travel, .fam{
     margin: 12px;
     background: #20B2AA;
     border-radius: 7px;
@@ -126,27 +125,49 @@ footer{
     flex-basis: 400px;
   }
 
-.books, .travel, .sorority > header{
+.fam > header{
     background: #288080;
     border: 2px solid #45ADAD;
     padding: 20px 0;
     border-radius: 7px 7px 0 0;
   }
 
-.books, .travel, .sorority > ul{
-    list-style: none;
-    padding: 0;
-  }
+.books > header{
+    background: #288080;
+    border: 2px solid #45ADAD;
+    padding: 20px 0;
+    border-radius: 7px 7px 0 0;
+  } 
 
-.books, .travel, .sorority > ul li {
+.travel > header{
+    background: #288080;
+    border: 2px solid #45ADAD;
+    padding: 20px 0;
+    border-radius: 7px 7px 0 0;
+  } 
+
+.books > ul li {
     width: 90%;
     margin: 20px auto;
+    list-style: none;
   }
 
-.books h3, .travel h3, .sorority h3{
+.travel > ul li{
+    width: 90%;
+    margin: 20px auto;
+    list-style: none;
+  } 
+  
+.fam > ul li{
+    width: 90%;
+    margin: 20px auto;
+    list-style: none;
+  }
+
+.books h3, .travel h3, .fam h3{
     font-size: 30px;
     color: white;
-    text-align: center;
+    text-align: left;
   }
 
 .gallery{
@@ -162,4 +183,19 @@ footer{
     border: 10px #50C7C7 solid;
     margin: 10px;
     width: 300px;
+  }
+
+.transcript{
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+  }
+  
+.transcript > img{
+    border: 10px #50C7C7 solid;
+    margin: 10px;
+    width: 800px;
   }

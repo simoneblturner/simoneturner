@@ -58,7 +58,7 @@ footer{
     background-color: #20B2AA;
     color: white;
     padding-top: 30px;
-    text-align: center;
+    text-align: right;
   }
 
 .container{
@@ -171,7 +171,7 @@ footer{
   }
 
 .gallery{
-    min-height: 600px;
+    min-height: 300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,11 +182,11 @@ footer{
 .gallery > img{
     border: 10px #50C7C7 solid;
     margin: 10px;
-    width: 300px;
+    width: 200px;
   }
 
 .transcript{
-    min-height: 600px;
+    min-height: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -197,5 +197,5 @@ footer{
 .transcript > img{
     border: 10px #50C7C7 solid;
     margin: 10px;
-    width: 800px;
+    width: 600px;
   }

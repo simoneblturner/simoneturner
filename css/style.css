@@ -264,19 +264,23 @@ footer{
     text-align: left;
   }
 
-.gallery{
-    min-height: 300px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-  }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
   
-.gallery > img{
+.images{
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.gallery img{
     border: 10px #50C7C7 solid;
-    margin: 10px;
-    width: 200px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
   }
   
 .transcript{
@@ -372,15 +376,26 @@ legend{
 @media screen and (min-width: 700px){
 .books, .travel, .fam{
     flex-basis: 500px;
+  }
 
+.images{
+    flex: 50%;
+    max-width: 50%;
   }
-  }
+}
 
 @media screen and (min-width: 1000px){
 .books, .travel, .fam{
     flex-basis: 700px wrap;
 
   }
+
+.images{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
   }
 
 @media screen and (prefers-reduced-motion: reduce){

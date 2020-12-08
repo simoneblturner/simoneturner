@@ -265,7 +265,7 @@ footer{
   }
 
 .gallery{
-    min-height: 70px;
+    max-height: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

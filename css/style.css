@@ -34,16 +34,16 @@ header{
     color: black;
     text-decoration: none;
   }
+
+.active a{
+    color:white;
+    text-decoration-style: uppercase;
+    font-size: 30px;
+  }
   
 .link a:hover, a:focus{
     color: black;
     text-decoration: underline;
-    font-size: 30px;
-  }
-
-.active a{
-    color:white;
-    text-decoration-style: bold;
     font-size: 30px;
   }
 
@@ -391,17 +391,18 @@ legend{
     font-size: 40px;
   }
 
+.active a{
+    color:white;
+    text-decoration-style: uppercase;
+    font-size: 50px;
+  }
+
 .link a:hover, a:focus{
     color: black;
     text-decoration: underline;
     font-size: 50px;
   }
-  
-.active a{
-    color:white;
-    text-decoration-style: bold;
-    font-size: 50px;
-  }
+
   
 .books, .travel, .fam{
     flex-basis: 500px;
@@ -438,15 +439,15 @@ legend{
     font-size: 50px;
   }
 
-.link a:hover, a:focus{
-    color: black;
-    text-decoration: underline;
+.active a{
+    color:white;
+    text-decoration-style: uppercase;
     font-size: 70px;
   }
 
-.active a{
-    color:white;
-    text-decoration-style: bold;
+.link a:hover, a:focus{
+    color: black;
+    text-decoration: underline;
     font-size: 70px;
   }
   

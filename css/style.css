@@ -141,7 +141,7 @@ footer{
     color: white;
     height: 400px;               
     
-    background-image: url("../images/Coding.jpg");
+    background-image: url("../images/coding.jpg");
     background-repeat: no-repeat;
     
     grid-column: 1 / -1;  

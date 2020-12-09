@@ -391,11 +391,11 @@ legend{
   }
 
 .images{
+    flex-direction: row wrap;
     flex: 25%;
-    max-width: 25%;
+    max-width: 10%;
     padding: 0 4px;
   }
-
   }
 
 @media screen and (prefers-reduced-motion: reduce){

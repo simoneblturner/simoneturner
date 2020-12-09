@@ -297,13 +297,21 @@ footer{
     justify-content: center;
     align-content: start;
     border: 10px #50C7C7 solid;
-    max-width: 100px;
-    max-height: 80px;
+    max-width: 300px;
+    max-height: 240px;
     margin: 20px;
   }
 
+.home-page{
+    display: grid;
+    justify-self: center;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+
 .contact_form{
-    display: block;
+    display: grid;
     border: 10px white  solid;
     padding: 40px;
   }
